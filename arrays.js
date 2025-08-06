@@ -1,5 +1,5 @@
 const prompt = require("prompt-sync")();
-let times = ["Coritiba", "Athletico", "Maringa", "Operario", "Flamengo"] /* declarei um VETOR */
+// let times = ["Coritiba", "Athletico", "Maringa", "Operario", "Flamengo"] /* declarei um VETOR */
 
 // times[1] = "Rio Branco";
 // times.push("Parana");   //inseri elemento 
@@ -33,7 +33,7 @@ let times = ["Coritiba", "Athletico", "Maringa", "Operario", "Flamengo"] /* decl
 
 
 
-console.log(times);
+// console.log(times);
 // console.log(times.sort());   // DETERMINA EM FORMA ALFABETICA
 // console.log(times);
 // console.log(times.reverse());
@@ -41,3 +41,18 @@ console.log(times);
 
 // campeao = Math.random([times]);
 // console.log(`o campeao é ${[campeao]}`);
+
+
+
+// ARRAYS BIDIMENSIONAIS / MATRIZES 
+
+let alunos = [
+    [`João`, 10],
+    [`José`, 6],
+    [`Maria`, 7.5]
+]
+
+        for(let i = 0; i < alunos.length; i++){
+            console.log(`${alunos[i][0] } tirou ${alunos[i][1]}`);
+
+        }
